@@ -1,3 +1,4 @@
+<img width="521" height="763" alt="DBMS6_7" src="https://github.com/user-attachments/assets/adba849d-b43b-4d27-9a32-126897bb3475" />
 # DBMS_06 – PostgreSQL in Practice: DDL, DML, and Bulk Import
 
 **Module:** Databases · THGA Bochum  
@@ -98,7 +99,8 @@ psql --version
 
 > **Screenshot 2:** Take a screenshot showing the output of both commands.
 >
-> `[insert screenshot]`
+> `[insert screenshot]`<img width="449" height="83" alt="DBMS6_1" src="https://github.com/user-attachments/assets/0b72a21a-6949-4510-b4af-a1396c558452" />
+
 
 ---
 
@@ -256,7 +258,10 @@ Inspect the structure of one table:
 > **Screenshot 4:** Take a screenshot showing the output of `\dt` and
 > `\d ausleihe`.
 >
-> `[insert screenshot]`
+> `[insert screenshot]`<img width="449" height="83" alt="DBMS6_1" src="https://github.com/user-attachments/assets/cd7fa7ba-371c-41a0-ac1b-e282c4d60267" /><img width="312" height="314" alt="DBMS6_3" src="https://github.com/user-attachments/assets/0aac523b-d8be-45b6-874a-e63667fa5606" />
+<img width="1032" height="503" alt="DBMS6_2" src="https://github.com/user-attachments/assets/44c2af46-b331-4da7-afa3-94e4d6d934c7" />
+
+
 
 ### Questions for Section 4
 
@@ -362,6 +367,7 @@ SELECT COUNT(*) FROM mitglied;
 > **Screenshot 5:** Take a screenshot showing the three `COUNT(*)` results.
 >
 > `[insert screenshot]`
+<img width="312" height="314" alt="DBMS6_3" src="https://github.com/user-attachments/assets/fbe4eb07-7c90-4c9a-b08d-48626beb261c" />
 
 Exit `psql`:
 
@@ -446,7 +452,8 @@ SELECT * FROM ausleihe;
 
 > **Screenshot 6:** Take a screenshot showing the full output of `SELECT * FROM ausleihe`.
 >
-> `[insert screenshot]`
+> `[insert screenshot]`<img width="605" height="158" alt="DBMS6_4" src="https://github.com/user-attachments/assets/2b49638c-6c5f-41f8-8d1b-171dc09d9542" />
+
 
 ### Questions for Section 6
 
@@ -550,7 +557,8 @@ WHERE  NOT EXISTS (
 > **Screenshot 7:** Take a screenshot showing the output of all three queries
 > in sequence in the `psql` shell.
 >
-> `[insert screenshot]`
+> `[insert screenshot]`<img width="632" height="830" alt="DBMS6_5" src="https://github.com/user-attachments/assets/42258da5-ce85-4e0a-981e-a87576419bbe" />
+
 
 ### Questions for Section 7
 
@@ -630,7 +638,7 @@ INSERT INTO film (titel, laenge_min, fsk) VALUES
     ('Lola rennt',          81, 12),
     ('Der Untergang',      156, 12),
     ('Goodbye Lenin!',     121, 6);
-
+id_ed25519
 INSERT INTO vorstellung (film_id, beginn, saal) VALUES
     (1, '2026-07-01 20:00', 'Saal 1'),
     (2, '2026-07-01 18:00', 'Saal 2'),
@@ -667,7 +675,8 @@ psql -U <your-username> -d kino -f kino.sql
 
 > **Screenshot 8:** Take a screenshot showing the script execution output.
 >
-> `[insert screenshot]`
+> `[insert screenshot]`<img width="579" height="127" alt="DBMS6_6" src="https://github.com/user-attachments/assets/26b1a41e-c38e-45a9-a2c7-0b44750d8e2c" />
+
 
 ---
 
@@ -720,7 +729,8 @@ ORDER BY reservierungen DESC;
 > **Screenshot 9:** Take a screenshot showing the output of all three
 > `SELECT` statements.
 >
-> `[insert screenshot]`
+> `[insert screenshot]`<img width="521" height="763" alt="DBMS6_7" src="https://github.com/user-attachments/assets/f9c1593e-cdba-49b6-bedd-469e321ce859" />
+
 
 ### Questions for Section 9
 
